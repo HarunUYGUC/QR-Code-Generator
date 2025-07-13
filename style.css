@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 10px;
 }
 
 .qr-app {
@@ -67,6 +68,7 @@ h1 {
     cursor: pointer;
     font-size: 16px;
     margin: 10px 0;
+    width: 200px;
 }
 
 #generate-btn {
