@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Pro', sans-serif;
+}
+
+body {
+    background-color: #31363F;
+    color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.qr-app {
+    background-color: #BBBBBB;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    font-family: 'Advent Pro', sans-serif;
+    margin-bottom: 20px;
+}
+
+#text-url {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+#text-url.error {
+    color: #c71f1f;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ffe5e5;
+    border: 2px solid #c71f1f;
+    animation: shake 0.3s ease-in-out;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+#qr-code {
+    margin: 20px auto;
+}
+
+#generate-btn, #download-btn {
+    background-color: #222831;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#generate-btn {
+    color: #718e7a;
+}
+
+#download-btn {
+    color: #c71f1f;
+    margin-left: 10px;
+}
+
+#generate-btn:hover, #download-btn:hover {
+    background-color: #393E46;
+}
+
+.icon {
+    margin-right: 10px;
+}

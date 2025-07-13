@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <div class="qr-app">
+        <h1>QR Code Generator</h1>
+        <div class="body">
+            <input type="text" id="text-url" placeholder="Enter your text or URL">
+            <div id="qr-code"></div>
+        </div>
+        <div class="footer">
+            <button id="generate-btn"><i class="fa-solid fa-repeat icon"></i>Generate QR Code</button>
+            <button id="download-btn"><i class="fa-solid fa-file-arrow-down icon"></i>Download QR Code</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
