@@ -66,6 +66,7 @@ h1 {
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
+    margin: 10px 0;
 }
 
 #generate-btn {
@@ -74,7 +75,6 @@ h1 {
 
 #download-btn {
     color: #c71f1f;
-    margin-left: 10px;
 }
 
 #generate-btn:hover, #download-btn:hover {
