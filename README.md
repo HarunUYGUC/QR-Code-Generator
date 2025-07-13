@@ -4,4 +4,3 @@
 <img width="1916" height="854" alt="QR Code Created" src="https://github.com/user-attachments/assets/cce4b6e9-a0bf-46d0-8286-aa8e0331b177" />
 <img width="1906" height="846" alt="Download QR Code" src="https://github.com/user-attachments/assets/41862e3c-b8ea-467e-bd08-1d087b04ad7b" />
 <img width="1907" height="873" alt="Generate a QR Code First" src="https://github.com/user-attachments/assets/b5817166-3279-4697-bc91-8415e45694c7" />
-<img width="660" height="305" alt="Link" src="https://github.com/user-attachments/assets/1d93296e-cc15-4d9f-953c-d6d08231e473" />
